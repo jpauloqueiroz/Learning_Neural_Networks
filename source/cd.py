@@ -18,6 +18,8 @@ import matplotlib.pyplot as plt
 
 print("here")
 X, y = spiral_data(100, 3)
+print(X)
+print(y)
 
 plt.scatter(X[:,0], X[:,1])
 plt.show() 
